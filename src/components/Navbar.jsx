@@ -4,7 +4,7 @@ import './Navbar.css';
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-brand">PomodoroApp</div>
+      <div className="navbar-brand">Effix</div>
       <div className="navbar-links">
         <Link to="/">Home</Link>
         <Link to="/timer">Timer</Link>

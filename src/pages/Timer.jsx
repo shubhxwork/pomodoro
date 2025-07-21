@@ -3,9 +3,9 @@ import { useState, useEffect, useRef } from 'react';
 import './Timer.css';
 
 const modes = {
-  pomodoro: { label: 'Pomodoro', time: 25 * 60 },
-  shortBreak: { label: 'Short Break', time: 5 * 60 },
-  longBreak: { label: 'Long Break', time: 15 * 60 }
+  pomodoro: { label: 'Effix', time: 25 * 60 },
+  shortBreak: { label: 'Sprint', time: 5 * 60 },
+  longBreak: { label: 'Marathon', time: 15 * 60 }
 };
 
 export default function Timer() {

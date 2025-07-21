@@ -1,5 +1,5 @@
  .navbar {
-    background-color: #ffffff;
+    background-color: #b80000;
     padding: 16px 32px;
     display: flex;
     justify-content: space-between;
@@ -10,13 +10,13 @@
   .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #e63946;
+    color: white;
   }
   
   .navbar-links a {
     margin-left: 20px;
     text-decoration: none;
-    color: #333;
+    color: white;
     font-weight: 500;
   }
   
