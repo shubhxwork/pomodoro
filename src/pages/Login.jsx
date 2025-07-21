@@ -1,4 +1,3 @@
-// src/pages/Login.jsx
 import { auth, provider } from '../firebase';
 import { signInWithPopup } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
@@ -10,7 +9,7 @@ export default function Login() {
   const signInWithGoogle = async () => {
     try {
       await signInWithPopup(auth, provider);
-      navigate('/timer'); // redirect after login
+      navigate('/timer'); 
     } catch (err) {
       alert('Login failed: ' + err.message);
     }

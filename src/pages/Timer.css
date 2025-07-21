@@ -3,14 +3,18 @@
 .timer-container {
     text-align: center;
     padding: 40px 20px;
+    color: black;
   }
   
   .mode-buttons {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
   }
   
   .mode-buttons button {
-    margin: 0 10px;
     padding: 10px 20px;
     font-weight: bold;
     font-size: 1rem;
@@ -30,10 +34,17 @@
     font-size: 6rem;
     font-weight: bold;
     margin: 30px 0;
+    word-break: break-word;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
   }
   
   .controls button {
-    margin: 0 10px;
     padding: 12px 24px;
     font-size: 1rem;
     border-radius: 8px;
@@ -47,5 +58,30 @@
   .controls button:hover {
     background-color: #444;
   }
+  
 
+  
+  @media (max-width: 768px) {
+    .timer-display {
+      font-size: 4rem;
+    }
+  
+    .mode-buttons button,
+    .controls button {
+      font-size: 0.95rem;
+      padding: 10px 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .timer-display {
+      font-size: 3rem;
+    }
+  
+    .mode-buttons button,
+    .controls button {
+      font-size: 0.9rem;
+      padding: 10px 16px;
+    }
+  }
   

@@ -6,7 +6,7 @@ export default function Home() {
       <div className="hero-section">
         <h1>Boost your productivity with Effix</h1>
         <p>Boost your focus and productivity using the Pomodoro Technique.</p>
-        <a href="/timer" className="hero-button">RACE!</a>
+        <a href="/timer" className="hero-button">RACE WITH TIME!</a>
       </div>
     </div>
   );
