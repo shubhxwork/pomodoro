@@ -1,7 +1,7 @@
 // src/App.jsx
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar.jsx';
 import Home from './pages/Home';
+import Navbar from './components/Navbar.jsx';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Timer from './pages/Timer';
